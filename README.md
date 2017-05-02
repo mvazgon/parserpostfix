@@ -1,7 +1,7 @@
 # parserpostfix
-English:It's a script cronalized to parser log of postfix services to save the info in a database for after web search 
+English:It's a script to parser log of postfix services to extract the info to show by shell or web.
 
-Spanish:Es un script cronalizado para analizar el log del servicio postfix y salvarlo a una base de datos para una posterior búsqueda web.
+Spanish:Es un script  para analizar el log del servicio postfix para extraer la info para mostrar por la shell o por web. 
 
 E:TODO
 
@@ -11,3 +11,18 @@ S:Por Hacer
 
 S:Se desarrollará en python-2.7 para el formato que se usa en mi servidor VPS de Comvive Servidores SL. Después se desarrollará para  el formato de log de un paquete de postfix standard de Debian. 
 
+E: HOW TO WORK.
+
+E:The script have two filter:
+1. by time, we set time reference and one interval maybe 60 seconds search on log:
+   a. sender,
+   b. recipient.
+2. by sender / recipient and show all traffic where two or on one is present, or both them are present. 
+
+S:Cómo funciona:
+
+S:Tiene dos modos de búsqueda:
+1. por tiempo, en el cual le pasamos el tiempo de referencia, y en un intervalo de más/menos un minuto buscará los datos de:
+   a. emisor
+   b. receptor.
+2. por emisor / receptor y se mostrarán todos el tráfico donde los dos correos o uno de ellos estén presentes.
