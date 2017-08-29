@@ -26,3 +26,5 @@ S:Tiene dos modos de búsqueda:
    a. emisor
    b. receptor.
 2. por emisor / receptor y se mostrarán todos el tráfico donde los dos correos o uno de ellos estén presentes.
+
+comprobando.
